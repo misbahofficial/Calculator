@@ -11,7 +11,8 @@ int main(){
     std::cin >> op;
     std::cout << "Enter second Number: ";
     std::cin >> secondNumber;
-
+    
+    //checking the operator user entered by conditions and doing maths
     if(op == '+'){
         int sum = firstNumber + secondNumber;
         std::cout << firstNumber << " + " << secondNumber << " = " << sum << std::endl;
